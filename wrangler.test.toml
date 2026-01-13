@@ -6,9 +6,9 @@ pages_build_output_dir = ".vercel/output/static"
 
 # D1 database binding
 [[d1_databases]]
-binding = "DB"
+binding = "cloudflare_worker_template_test"
 database_name = "cloudflare-worker-template-test"
-database_id = "f2aae4f2-b6c6-434c-88a1-fe7667958bb7"
+database_id = "7bbad8e3-48d1-4c8b-b20b-3c1589074d0e"
 migrations_dir = "migrations"
 
 # R2 bucket binding
@@ -19,7 +19,7 @@ bucket_name = "cloudflare-worker-template-test"
 # KV namespace
 [[kv_namespaces]]
 binding = "KV"
-id = "d45eef82c64443939acaa1dc2b45aa95"
+id = "2fc6fb03867d45d6b2f1fc8e93f0e613"
 
 # Environment variables
 [vars]

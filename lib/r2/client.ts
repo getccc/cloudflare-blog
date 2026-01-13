@@ -4,8 +4,9 @@ import { getCloudflareEnv } from '@/lib/db/client';
  * Get R2 bucket instance
  */
 export function getR2Bucket(): R2Bucket | null {
-  const env = getCloudflareEnv();
-  return env?.BUCKET || null;
+  // const env = getCloudflareEnv();
+  // return env?.BUCKET || null;
+  return null;
 }
 
 /**

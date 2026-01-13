@@ -42,7 +42,7 @@ export default async function Home() {
       {/* Main Content */}
       <main className="max-w-4xl w-full mx-auto space-y-8 flex-1 flex flex-col justify-center">
         <div className="text-center space-y-4">
-          <h1 className="text-4xl font-bold">Welcome to Next.js on Cloudflare</h1>
+          <h1 className="text-4xl font-bold">你好!2026/1/13</h1>
           <p className="text-xl text-gray-600 dark:text-gray-400">
             A production-ready template with Edge Runtime, Workers, D1, and R2
           </p>
